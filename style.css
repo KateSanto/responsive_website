@@ -1,0 +1,16 @@
+body {
+    background-color: coral;
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+      background-color: lightblue;
+      color: darkslategray;
+    }
+    h1 {
+        display: none;
+    }
+  }
+
+  
